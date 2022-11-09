@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { DownloadExcel } from "react-excel-export";
 
+//npm install react-excel-export --save --force
+
 const JsonDataDisplay = () => {
   const [data, setData] = useState([]);
 
